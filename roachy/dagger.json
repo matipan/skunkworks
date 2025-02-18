@@ -1,0 +1,14 @@
+{
+  "name": "roachy",
+  "engineVersion": "v0.16.0-250214170411-5c9108afeb09",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "athlete-workspace",
+      "source": "../athlete-workspace"
+    }
+  ],
+  "source": "."
+}

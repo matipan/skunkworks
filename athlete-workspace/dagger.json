@@ -1,0 +1,19 @@
+{
+  "name": "athlete-workspace",
+  "engineVersion": "v0.16.0-250214170411-5c9108afeb09",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "notify",
+      "source": "github.com/gerhard/daggerverse/notify",
+      "pin": "3cb1cd957782f7b841f6fc49a662073180021a29"
+    },
+    {
+      "name": "strava",
+      "source": "../strava"
+    }
+  ],
+  "source": "."
+}
