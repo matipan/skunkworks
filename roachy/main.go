@@ -8,7 +8,7 @@ import (
 
 type Roachy struct{}
 
-func (m *Roachy) Roachy(ctx context.Context, stravaAccessToken *dagger.Secret, webhookUrl *dagger.Secret, activityID int) (string, error) {
+func (m *Roachy) RoastGroup(ctx context.Context, stravaAccessToken *dagger.Secret, webhookUrl *dagger.Secret, activityID int) (string, error) {
 	athleteWorkspace := dag.AthleteWorkspace(stravaAccessToken, webhookUrl)
 	return dag.Llm().
 		WithAthleteWorkspace(athleteWorkspace).
