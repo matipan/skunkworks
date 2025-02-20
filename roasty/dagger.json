@@ -1,0 +1,14 @@
+{
+  "name": "roasty",
+  "engineVersion": "v0.16.0-llm.2",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "athlete-workspace",
+      "source": "../athlete-workspace"
+    }
+  ],
+  "source": "."
+}
