@@ -1,6 +1,7 @@
 {
   "name": "anthropic",
-  "engineVersion": "v0.15.2",
-  "sdk": "go",
-  "source": "."
+  "engineVersion": "v0.16.1",
+  "sdk": {
+    "source": "go"
+  }
 }
