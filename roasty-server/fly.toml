@@ -1,0 +1,30 @@
+app = "roasty"
+primary_region = "ord"
+
+kill_signal = "SIGINT"
+kill_timeout = 30
+
+[build]
+  image = "registry.fly.io/roasty"
+
+[mounts]
+  source = "dagger_engine"
+  destination = "/var/lib/dagger"
+  initial_size = "100gb"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 10
+    hard_limit = 10
+
+[[http_service.checks]]
+  grace_period = "10s"
+  interval = "10s"
+  method = "GET"
+  timeout = "9s"
+  path = "/healthz"

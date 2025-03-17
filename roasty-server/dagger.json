@@ -1,0 +1,15 @@
+{
+  "name": "dev",
+  "engineVersion": "v0.16.0-llm.2",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "go",
+      "source": "github.com/vito/daggerverse/go",
+      "pin": "d368836636284116d090e271742904fea369cf72"
+    }
+  ],
+  "source": ".dagger"
+}
