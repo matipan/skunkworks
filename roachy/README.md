@@ -9,9 +9,11 @@ Via these two modules I can create a conversation with Roachy, where I can provi
 
 ![demo](https://bunny.matiaspan.dev/roachy-demo.gif)
 
+Check out the full demo below: 
+[![Watch the video](https://img.youtube.com/vi/1_-bTOs9Ky0/maxresdefault.jpg)](https://youtu.be/1_-bTOs9Ky0)
+
 ## Features
 
 ### Roasting you and your friends
 
 Connect your Strava webhooks with Roachy and every time it receives an activity it will roast you and your friends on Discord, making sure that it keeps track of who is leading in the team and giving a hard time for everybody falling behind.
-
